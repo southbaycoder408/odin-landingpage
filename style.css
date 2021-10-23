@@ -10,7 +10,21 @@
 
 .headertop{
     display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 80px;
+    align-items: center;
+
 }
+
+.headerbot{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    align-items: center;
+    gap: 100px;
+
+}
+
 .headerlogo{
     font-size:24px;
     color: #f9faf8;
@@ -25,4 +39,9 @@
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+img{
+    height: auto;
+    width: 250px;
 }
