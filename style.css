@@ -30,7 +30,6 @@
     color: #f9faf8;
     
 }
-.headerlinks,
 .maintitledesc{
     font-size: 18px;
     color:  #e5e7eb;
@@ -44,4 +43,19 @@
 img{
     height: auto;
     width: 250px;
+}
+
+.signuplink{
+
+    text-align: center;
+    background-color: #3882f6;
+    padding: 5px 30px 5px;
+    margin:0px;
+    border: 0px;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:  #e5e7eb;
 }
