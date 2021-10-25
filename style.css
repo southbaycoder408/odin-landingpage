@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+body{
+    outline-color: #1F2937;
+}
+/* This segment is for header content */
 .header{
     background-color: #1F2937;
     padding: 20px 150px 20px;
@@ -18,7 +22,7 @@
 
 .headerbot{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-bottom: 80px;
     align-items: center;
     gap: 100px;
@@ -41,8 +45,8 @@
 }
 
 img{
-    height: auto;
-    width: 250px;
+    height: 150px;
+    width: auto;
 }
 
 .signuplink{
@@ -59,3 +63,46 @@ a{
     font-size: 18px;
     color:  #e5e7eb;
 }
+
+/* This Segment is for the center content of landing page */
+
+.somerandom{
+    text-align: center;
+    padding: 30px;
+}
+.fourimages{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 300px 0px;
+}
+.image{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* This segment is for the quote content */
+
+.hero{
+    /*padding: 0px 500px 0px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 1000px;
+    color: #1f2937;
+    padding-top: 100px;
+}
+.quoter{
+    text-align: end;
+    width: 1000px;
+    padding-bottom: 100px;
+}
+
+/* This segment is for the footer */
