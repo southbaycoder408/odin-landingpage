@@ -3,15 +3,45 @@
     margin: 0px;
 }
 
-body{
-    outline-color: #1F2937;
-}
-/* This segment is for header content */
-.header{
+/* Color and Font Styles for landing page */
+
+.header,
+.footer{
     background-color: #1F2937;
-    padding: 20px 150px 20px;
+}
+.heromaintext{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.herosecondary,
+.links,
+.footer,
+.action-text{
+    font-size: 18px;
+    color:  #e5e7eb;
+    text-decoration: none;
+}
+.headerlogo{
+    font-size:24px;
+    color: #f9faf8;
+    
+}
+button{
+    background-color: #3882f6;
+}
+.info-header{
+    text-align: center;
+    padding: 30px;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
 }
 
+/* This segment is for header content */
+.header{
+    padding: 20px 150px 20px;
+}
 .headertop{
     display: flex;
     justify-content: space-between;
@@ -19,7 +49,6 @@ body{
     align-items: center;
 
 }
-
 .headerbot{
     display: flex;
     justify-content: space-evenly;
@@ -28,49 +57,21 @@ body{
     gap: 100px;
 
 }
-
-.headerlogo{
-    font-size:24px;
-    color: #f9faf8;
-    
-}
-.maintitledesc{
-    font-size: 18px;
-    color:  #e5e7eb;
-}
-.maintitle{
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
-
 img{
     height: 150px;
     width: auto;
 }
 
-.signuplink{
-
+.head-button{
     text-align: center;
-    background-color: #3882f6;
-    padding: 5px 30px 5px;
-    margin:0px;
-    border: 0px;
+    padding: 5px 20px 5px;
     border-radius: 8px;
-}
-a{
-    text-decoration: none;
-    font-size: 18px;
-    color:  #e5e7eb;
+    font-weight: bolder;
 }
 
-/* This Segment is for the center content of landing page */
+/* This Segment is for the information content of landing page */
 
-.somerandom{
-    text-align: center;
-    padding: 30px;
-}
-.fourimages{
+.info-images{
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -83,7 +84,7 @@ a{
 
 /* This segment is for the quote content */
 
-.hero{
+.quote{
     /*padding: 0px 500px 0px;*/
     display: flex;
     flex-direction: column;
@@ -91,7 +92,7 @@ a{
     background-color: #e5e7eb;
 }
 
-.quote{
+.quote-text{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -104,5 +105,31 @@ a{
     width: 1000px;
     padding-bottom: 100px;
 }
+
+/* This segment is for the call to action */
+
+.calltoaction,
+.footer{
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.lefttext,
+.actionlink{
+    background-color: #3882f6;
+    padding: 20px;
+}
+
+.lefttext{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.actionlink{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
 
 /* This segment is for the footer */
